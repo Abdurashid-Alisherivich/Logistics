@@ -1,0 +1,89 @@
+.container-navbar{
+    background-color: #fff !important;
+.menu{
+    // height: 78px;
+    z-index: 10000;
+    background-color: #fff;
+    .main_navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar-collapse{
+
+        .navbar-ul{
+            height: 100%;
+            width: 500px;
+            margin: 0 auto;r
+            // background-color: blue !important;
+            // margin-left: 450px;
+            
+            .navbar-li{
+                text-decoration: none;
+                color: #333 !important;
+                font-weight: 700;
+                word-spacing: 20px;
+                
+
+                .navbar-li:hover{
+                    border-bottom: 2px blue solid;
+                }
+                .active-nav{
+                    color: #333 !important;
+                    font-weight: 700;
+                    // font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+                }
+
+                .nav-dropdown {
+                    text-decoration: none;
+                    color: #333;
+                    font-weight: 700;
+                    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+                     .dropdown-item{
+                        text-decoration: none;
+                        color: #333 !important;
+                    }
+                    
+                }
+
+                .nav-link-dropdown{
+                    text-decoration: none !important;
+                    color: #333 !important;
+                }
+            }
+        }
+        .nav-login > button{
+            color: white;
+            // background-color: #7C83FD;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgb(69, 63, 184) 0%,  rgba(0,212,255,1) 100%);
+            border: none;
+
+        }
+        .nav-login > button .login-nav{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+
+    
+    }
+
+}
+
+h1 , h2, h3, h4 , h5  {
+    font-weight: 700!important;
+}
+
+
+.dropdown-menu{
+    li{
+        .dropdown-item{
+            a{
+                color: #333;
+                text-decoration: none;
+            }
+        }
+    }
+}

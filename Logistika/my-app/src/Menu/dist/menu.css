@@ -1,0 +1,27 @@
+.container-navbar {
+  background-color: #fff !important;
+}
+.container-navbar .menu {
+  height: 78px;
+  z-index: 10000;
+  background-color: #fff;
+}
+.container-navbar .menu .main_navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-navbar .menu .navbar-collapse {
+  display: flex !important;
+}
+.container-navbar .menu .navbar-collapse .navbar-ul .navbar-li {
+  text-decoration: none;
+  color: #333;
+}
+.container-navbar .menu .navbar-collapse .navbar-ul .navbar-li .nav-link-navbar {
+  text-decoration: none;
+  color: #333;
+}
+.container-navbar .menu .navbar-collapse .nav-login > button .login-nav {
+  text-decoration: none;
+}

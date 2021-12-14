@@ -1,0 +1,178 @@
+#footer-wrapper.footer-dark {
+    background-color: #25272e;
+}
+
+#footer-wrapper {
+    padding-top: 70px;
+    // position: relative;
+    background-image: url(../Footer/img/footer-bkg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    footer{
+        display: block;
+        margin-top: 180px;
+        padding: 0;
+        order: 0;
+        font: inherit;
+        // vertical-align: baseline;
+        .container-footer{
+            margin-right: auto;
+            margin-left: auto;
+            padding-left: 15px;
+            padding-right: 15px;
+            .container-footer::before{
+                content: " ";
+                display: table;
+            }
+            .row-footer{
+                margin-bottom: 25px;
+                margin-left: -15px;
+                margin-right: -15px;
+                .row-footer::before{
+                    content: " ";
+                display: table;
+                }
+                .col-footer{
+                    position: relative;
+                    min-height: 1px;
+                    padding-left: 85px;
+                    padding-right: 15px;
+                    .widget {
+                        display: block;
+                        width: 100%;
+                        margin-bottom: 45px;
+                        padding-bottom: 5px;
+                        .title-footer{
+                            .footer-h3{
+                                color: #fff;
+                                font-size: 15px;
+                                text-transform: uppercase;
+                                font-weight: 700;
+                                margin-bottom: 20px;
+                                line-height: 24px;
+                                font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+                            }
+                        }
+                        .footer-ul > li{
+                            background-image: url(./img/arrow.png);
+                            background-repeat: no-repeat;
+                            background-position: 0 center;
+                            list-style: none;
+                            padding-left: 15px;
+                            padding-bottom: 5px;
+                            .footer-a{
+                                color: #bcc0c4;
+                                text-decoration: none;
+                            }
+                            .footer-a:hover{
+                                color: #428bca;
+                            }
+                        }
+                    }
+                }
+                .footer-widget-container{
+                    .widget-text-footer{
+                        address {
+                            margin-bottom: 1rem;
+                            font-style: normal;
+                            line-height: inherit;
+                            color: #bcc0c4;
+                            margin: 0;
+                            padding: 0;
+                            border: 0;
+                            font: inherit;
+                            vertical-align: baseline;
+                        }
+                        .text-big-footer{
+                            color: #fff;
+                            font-size: 18px;
+                            line-height: 25px;
+                            font-family: 'Open Sans', Arial, sans-serif;
+                        }
+                        .mail-footer{
+                            color: #bcc0c4;
+                            transition: all 0.2s ease 0s;
+                            text-decoration: none;
+                            font-family: 'Open Sans', Arial, sans-serif;
+                            line-height: 22px;
+                            margin: 0;
+                            padding: 0;
+                            border: 0;
+                            font: inherit;
+                            vertical-align: baseline;
+                            cursor: pointer;
+                        }
+                        .mail-footer:hover{
+                            color: #428bca;
+                        }
+                        .footer-social-icons {
+                            margin-top: 15px;
+                            .footer-icon {
+                                list-style: none;
+                                list-style: none !important;
+                                background-image: none !important;
+                                float: left;
+                                margin-right: 5px;
+                                width: 30px;
+                                height: 30px;
+                                padding: 0 !important;
+                                .icon-footer{
+                                    background-color: #565f66;
+                                    color: #fff;
+                                    width: 30px;
+                                    height: 30px;
+                                    display: table-cell;
+                                    vertical-align: middle;
+                                    padding: 0;
+                                    text-align: center;
+                                    border-radius: 3px;
+                                    .fa{
+                                        display: inline-block;
+                                        font: normal normal normal 14px/1 FontAwesome;
+                                        font-size: inherit;
+                                        text-rendering: auto;
+                                        transform: translate(0, 0);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .copyrighting-container .row-copyrighting{
+            border-top: 1px solid #384653;
+            padding: 15px 0 10px 0;
+            .copyrighting-p{
+                color: #bcc0c4;
+                font-size: 11px;
+                padding-bottom: 15px;
+            }
+            .align-right{
+                color: #bcc0c4;
+                font-size: 11px;
+                // text-align: right;
+                padding-bottom: 15px;
+                a{
+                    color: #bcc0c4;
+                    text-decoration: none; 
+                }
+                a:hover{
+                    color:#428bca;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px){
+    .container-footer {
+        width: 1170px;
+    }
+}
+@media (min-width: 992px){
+    .col-footer {
+        width: 25%;
+        float: left;
+    }
+}

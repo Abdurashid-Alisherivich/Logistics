@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bodyLogin {
+  background: url(./slide01.jpg);
+  height: 100vh;
+  font-family: "work sans";
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#loginform {
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 700px;
+  width: 30%;
+  height: 60%;
+  margin: 100px auto;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+}
+
+.rowLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  max-width: 100%;
+
+}
+
+.rowLogin input {
+  width: 80%;
+  box-sizing: border-box;
+  border: none;
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  box-shadow: inset 0px -3px 0px 0px rgba(187, 187, 187, 0.2);
+  transition: box-shadow 0.2s ease-in;
+}
+
+.rowLogin input:focus {
+  box-shadow: inset 0px -3px 0px 0px rgba(34, 193, 195, 0.7);
+  outline: none;
+}
+
+.rowLogin input::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.25s ease-out;
+}
+
+.rowLogin input:hover::-webkit-input-placeholder,
+.rowLogin input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.rowLogin label {
+  align-self: start;
+  padding-left: 4.5rem;
+  padding-bottom: 0.5rem;
+  color: rgba(187, 187, 187, 0.9);
+}
+
+
+.rowLogin button:hover {
+  opacity: 0.8;
+}
+
+#loginform {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLoginP , .headerLoginP h2{
+  text-align: center !important;
+}
+
+.formLogin {
+  display: inline-block;
+}
+
+.rowLogin button {
+  border-radius: 3px;
+  width: 80% !important;
+  height: 40px !important;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(90deg, rgb(69, 63, 184) 0%,  rgba(0,212,255,1) 100%);
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+}

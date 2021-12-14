@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.tash_service .tash_banner img {
+  width: 100%;
+}
+
+.tash_service .malumot1 {
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+}
+
+.tash_service .malumot1 .shart .shart_left h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.tash_service .malumot1 .shart .shart_left h2::before {
+  margin: 0px 0px 10px;
+  display: block;
+  z-index: 10;
+  content: '';
+  color: orange;
+  width: 70px;
+  height: 3px;
+  border-top: 3px solid orange;
+}
+
+.tash_service .malumot1 .shart .shart_left ul {
+  line-height: 30px;
+  padding: 0;
+}
+
+.tash_service .malumot1 .shart .shart_left ul li {
+  list-style: none;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  color: #777777;
+  letter-spacing: .8px;
+}
+
+.tash_service .malumot1 .shart .shart_left ul li svg {
+  margin-right: 8px;
+  color: orange;
+}
+
+.tash_service .malumot1 .shart .shart_right img {
+  width: 100%;
+  height: 100%;
+}
+
+.tash_service .malumot2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 !important;
+  padding: 50px 0px 80px;
+  background-color: #e7e7e7;
+}
+
+.tash_service .malumot2 h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+.tash_service .malumot2 h2::before {
+  margin: 0px auto 10px;
+  display: block;
+  z-index: 10;
+  content: '';
+  color: orange;
+  width: 70px;
+  height: 3px;
+  left: 50%;
+  border-top: 3px solid orange;
+}
+
+.tash_service .malumot2 .mal2_fura {
+  padding: 0px !important;
+}
+
+.tash_service .malumot2 .step {
+  margin: 0 !important;
+  overflow-x: hidden;
+}
+
+.tash_service .malumot2 .step .info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 50px;
+}
+
+.tash_service .malumot2 .step .info .step_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.tash_service .malumot2 .step .info h3 {
+  font-size: 21px;
+  color: #333333;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.tash_service .malumot2 .step .info .info_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative !important;
+  width: 100px !important;
+  height: 100px !important;
+  border: 2px solid #c5c5c5;
+  border-radius: 100%;
+  padding: 0 !important;
+  margin-right: 20px;
+  position: absolute;
+  background-color: white;
+}
+
+.tash_service .malumot2 .step .info .info_icon svg {
+  display: block;
+  font-size: 50px;
+  color: #777777;
+  z-index: 2;
+  position: relative;
+}
+
+.tash_service .malumot2 .step .info .info_icon .icon12 {
+  color: orange;
+  font-size: 25px;
+  z-index: 5;
+  position: absolute;
+  left: 57%;
+  background-color: white;
+  border-radius: 100%;
+  padding: 2px;
+}
+
+.tash_service .malumot2 .step .info .info_icon .icon22 {
+  font-size: 55px;
+  color: orange;
+  z-index: 5;
+  position: absolute;
+  left: 42%;
+}
+
+.tash_service .malumot2 .step .info .info_icon .icon42 {
+  font-size: 34px;
+  color: orange;
+  z-index: 5;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+
+.tash_service .malumot2 .step .info_text p {
+  font-size: 14px;
+  color: #777777;
+  line-height: 23px;
+  position: absolute;
+}
+
+.tash_service .malumot2 .mal2_fura img {
+  width: 100%;
+  height: 100%;
+}
+
+.tash_service .malumot3 {
+  margin: 0 !important;
+  overflow-x: hidden;
+}
+
+.tash_service .malumot3 .house {
+  margin: 0 !important;
+}
+
+.tash_service .malumot3 .house .house_left {
+  padding: 50px 10px 50px 100px;
+}
+
+.tash_service .malumot3 .house .house_left h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.tash_service .malumot3 .house .house_left h2::before {
+  margin: 0px 0px 10px;
+  display: block;
+  z-index: 10;
+  content: '';
+  color: orange;
+  width: 70px;
+  height: 3px;
+  border-top: 3px solid orange;
+}
+
+.tash_service .malumot3 .house .house_left p {
+  font-size: 14px;
+  color: #777777;
+  letter-spacing: .8px;
+  padding: 10px 0px 30px;
+}
+
+.tash_service .malumot3 .house .house_left ul {
+  padding: 0 !important;
+  line-height: 30px;
+}
+
+.tash_service .malumot3 .house .house_left ul li {
+  list-style: none;
+  font-size: 14px;
+  color: #777777;
+  letter-spacing: .8px;
+}
+
+.tash_service .malumot3 .house .house_left ul li svg {
+  margin-right: 8px;
+  color: orange;
+}
+
+.tash_service .malumot3 .house .house_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px !important;
+}
+
+.tash_service .malumot3 .house .house_right img {
+  width: 90%;
+}
+
+.tash_service .malumot4 {
+  margin: 0 !important;
+  overflow-x: hidden;
+  padding: 50px 0px;
+  background-color: #2c3741;
+  color: white;
+}
+
+.tash_service .malumot4 .mal4_title h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 100px;
+}
+
+.tash_service .malumot4 .mal4_title h2::before {
+  margin: 0px 0px 10px;
+  display: block;
+  z-index: 10;
+  content: '';
+  color: orange;
+  width: 70px;
+  height: 3px;
+  left: 50%;
+  border-top: 3px solid orange;
+}
+
+.tash_service .malumot4 .mal4_end .end_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tash_service .malumot4 .mal4_end .end_card .end_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 1px solid #a7a7a7;
+  border-radius: 100%;
+}
+
+.tash_service .malumot4 .mal4_end .end_card .end_text {
+  font-size: 16px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .malumot1 {
+    padding: 50px 25px !important;
+  }
+  .malumot2 {
+    padding-bottom: 0px !important;
+  }
+  .malumot2 h2 {
+    padding-bottom: 20px;
+  }
+  .malumot2 .step .info {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 10px 100px !important;
+    overflow-y: hidden;
+  }
+  .malumot2 .step .info .step_info {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-bottom: 150px !important;
+  }
+  .malumot2 .step .info .step_info .info_icon {
+    position: absolute !important;
+    width: 35%;
+    height: 100%;
+  }
+  .malumot2 .step .info .step_info .info_text {
+    height: 100%;
+    right: 0;
+    padding-right: 10px;
+    padding-left: 120px;
+    position: absolute;
+    left: 20px;
+  }
+  .malumot2 .step .info .step_info .info_text p {
+    padding-right: 10px;
+  }
+  .malumot3 {
+    padding: 0px !important;
+  }
+  .malumot3 .house .house_left {
+    width: 100%;
+    padding: 50px 20px 0px !important;
+  }
+  .malumot3 .house .house_right {
+    padding-top: 30px !important;
+    padding-bottom: 80px !important;
+  }
+  .malumot4 {
+    padding: 50px 20px !important;
+  }
+  .malumot4 .mal4_title {
+    padding: 0px !important;
+  }
+  .malumot4 .mal4_title h2 {
+    margin: 0px !important;
+    padding-bottom: 20px !important;
+  }
+  .malumot4 .mal4_end {
+    padding: 30px 0px 0px !important;
+  }
+  .malumot4 .mal4_end .end_card {
+    margin: 0 !important;
+    padding: 10px 0px !important;
+  }
+}
+/*# sourceMappingURL=Tashqi_yuk.css.map */

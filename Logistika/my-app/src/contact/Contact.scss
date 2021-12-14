@@ -1,0 +1,110 @@
+.main-contact{
+background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../contact/truck-contact.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 60vh;
+text-align: center;
+
+
+}
+.contact-contact{
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 40%;
+  
+}
+
+.container{
+   
+    
+
+  
+
+    
+    .form-control{
+       margin-bottom: 5%;
+       height: 50px;
+    }
+    .for-map{
+        border: 1px solid red;
+    }
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+    .yellow-line{
+        border: 2px solid yellow;
+        width: 10%;
+        margin-bottom: 3%;
+    }
+  }
+  
+  
+  .column {
+    flex: 50%;
+    padding: 20px;
+  }
+  
+ 
+  @media screen and (max-width: 992px) {
+    .column {
+      flex: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .row {
+      flex-direction: column;
+
+    
+    }
+  }
+
+  .message-box{
+      height: 200%;
+      margin-top: 15%;
+  }
+
+  .send-button{
+      height: 30px;
+      width: 100px;
+      border-radius: 5px;
+      border-style: none;
+      margin-top: 10px;
+  }
+  .yulduzcha{
+      font-size: 20px;
+      color: red;
+  }
+ .contact-letters{
+     color: rgb(126, 125, 125);
+ }
+.yetkazib-berish{
+    
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #333;
+}
+
+.company-info{
+    color:rgb(126, 125, 125) ;
+}
+.tel-nomer{
+    font-size: 20px;
+    color: blue;
+}
+
+.company-info a{
+    text-decoration: none;
+    color: #333;
+}

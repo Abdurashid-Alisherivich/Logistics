@@ -1,0 +1,206 @@
+
+head,
+body {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", "Open Sans", Arial, sans-serif;
+    font-weight: 800;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+p,
+a,
+span,
+ul {
+    color: #777;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 22px;
+}
+
+.servis_title {
+    background-image: url(./Img/servis_internal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.servis_stile{
+    margin-top: 0 !important;
+    padding-top: 185px;
+}
+.servis_internal{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+}
+.servis_internal_text h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+
+
+// page-content-start
+.servis_internal_custom_heaing {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding-top: 12px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.servis_internal_page_content p {
+    padding: 15px;
+}
+.servis_ul_left ul{
+    padding: 0 !important;
+}
+.servis_internal_custom_heaing_fa_ul {
+    margin-left: 15px;
+    list-style-type: none;
+}
+.servis_internal_custom_heaing_fa_ul li {
+    position: relative;
+    padding-bottom: 5px;
+}
+.servis_internal_custom_heaing_fa_ul li svg {
+    color: #fac312;
+    line-height: 20px;
+    padding-right: 5px;
+}
+
+.servis_internal_page_content_img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.servis_internal_custom_heaing ::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: #fac312;
+    left: 0;
+    top: 0;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+// servis_internal_page_content_parallox
+
+.servis_internal_page_content_parallox {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.parallox04 {
+    background-image: url(./Img/parallax04.jpg);
+}
+.servis_internal_custom_heaing_parallox {
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+
+}
+
+.custom_after::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: #fac312;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.servis_internal_custom_heaing_parallox_statement p {
+    padding: 0 50px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #eee;
+}
+
+//------card-------
+
+.servis_internal_custom_heaing_parallox_card {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+}
+.servis_internal_custom_heaing_parallox_card h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.servis_internal_custom_heaing_parallox_card p {
+    text-transform: uppercase;
+    text-align: cente;
+    font-size: 14px;
+}
+.servis_internal_page_content_img img {
+    width: 100% !important;
+    height: auto;
+}
+
+.servis_internal_custom_heaing_parallox_card_1 {
+    width: 20rem;
+}
+
+.servis_internal_card_1:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253);
+}
+.servis_internal_card_card_body {
+    padding: 3rem 0;
+}
+.servis_card_img_overflow {
+    overflow: hidden;
+}
+.servis_card_img {
+    transition: transform 1s ease;
+    opacity: 1;
+}
+.servis_card_img:hover {
+    transform: scale(1.4);
+}
+
+.custom_after1::before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: #fac312;
+    bottom: 0;
+    left: 5%;
+    margin-left: -15px;
+    // margin-top: 10px;
+}
+.servis_card{
+    height: 28rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .servis_card_pedding{
+        padding-bottom: 50px;
+    }
+  }

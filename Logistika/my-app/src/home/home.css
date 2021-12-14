@@ -1,0 +1,265 @@
+.home_1_fura_bg img {
+  height: 600px;
+  width: 100% !important;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_1_fura_bg img {
+    width: 100% !important;
+    height: 200px !important;
+  }
+}
+
+.home_2_fura_bg img {
+  height: 600px;
+  width: 100% !important;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_2_fura_bg img {
+    width: 100% !important;
+    height: 200px !important;
+  }
+}
+
+.home_3_fura_bg img {
+  height: 600px;
+  width: 100% !important;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+  margin-top: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_3_fura_bg img {
+    width: 100% !important;
+    height: 200px !important;
+  }
+}
+
+.home_1_fura_txt {
+  margin-top: -300px;
+  font-size: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_1_fura_txt {
+    margin-top: -30px;
+    font-size: 25px;
+    margin-top: -80px;
+  }
+}
+
+.home_2_fura_txt {
+  margin-top: -300px;
+  font-size: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_2_fura_txt {
+    margin-top: -30px;
+    font-size: 30px;
+  }
+}
+
+.home_3_fura_txt {
+  margin-top: -300px;
+  font-size: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_3_fura_txt {
+    margin-top: -30px;
+    font-size: 25px;
+    margin-top: -80px;
+  }
+}
+
+.home_cardddd {
+  margin-top: -210px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_cardddd {
+    margin-top: 0px !important;
+    padding-top: 10px;
+  }
+}
+
+.home_second_page {
+  background-image: url("http://pixel-industry.com/html/trucking/img/pics/parallax01.jpg");
+  width: 100%;
+  height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_second_page {
+    width: 100%;
+    height: 1300px;
+  }
+}
+
+.home_third_page {
+  width: 100% !important;
+  height: 530px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_third_page {
+    width: 100%;
+    height: 1000px !important;
+    z-index: 5;
+  }
+}
+
+.home_thrdPG_txt {
+  text-align: center;
+  counter-reset: #333;
+  margin-top: 30px;
+}
+
+.home_thrdPG_smTxt {
+  text-align: center;
+  color: #333;
+}
+
+.home_basic_grid {
+  margin-top: 100px !important;
+}
+
+.home_first_icon {
+  font-size: 80px !important;
+}
+
+.home_first_icon_txt {
+  margin-left: 100px !important;
+  margin-top: -100px;
+  color: #333;
+}
+
+.home_first_icon_smTxt {
+  margin-left: 100px !important;
+}
+
+.home_four_page {
+  width: 100% !important;
+  height: 700px !important;
+}
+
+.home_fr_pg_grid1 {
+  background-color: #0d0d27;
+  width: 100%;
+  height: 700px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_fr_pg_grid1 {
+    background-color: #0d0d27;
+    width: 100%;
+    height: 700px !important;
+  }
+}
+
+.home_fr_pg_grid2 {
+  width: 100%;
+  height: 700px !important;
+  background-image: url(./home-img/fourPG_bg_img.jpg);
+}
+
+@media only screen and (max-width: 600px) {
+  .home_fr_pg_grid2 {
+    height: 0px !important;
+  }
+}
+
+.home_frPG_1txt {
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.home_frPG_2txt {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.home_frPG_icon1 {
+  font-size: 60px !important;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_frPG_icon1 {
+    margin-left: 0;
+    margin-top: 10px !important;
+  }
+}
+
+.home_frPG_smtxt1 {
+  color: white;
+  margin-left: 250px;
+  margin-top: -50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_frPG_smtxt1 {
+    margin-left: 80px !important;
+  }
+}
+
+.home_five_page {
+  width: 100%;
+  height: 400px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_five_page {
+    width: 100%;
+    height: 800px !important;
+  }
+}
+
+.home_basic_container {
+  margin-top: 75px !important;
+}
+
+.home_lasts_cardStyle1 {
+  max-width: 540px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_offfffice {
+    margin-top: -40px !important;
+  }
+}
+
+.home_lasts_cardStyle {
+  max-width: 540px;
+}
+
+.home_vashshi_basic_txt {
+  color: #777;
+}
+
+.home_umumiy_card_border {
+  border-radius: -85px !important;
+}
+
+.home_a_href {
+  text-decoration: none;
+  color: white;
+}
+
+.card-title {
+  margin-top: 20px;
+  font-weight: 900;
+}
+/*# sourceMappingURL=home.css.map */

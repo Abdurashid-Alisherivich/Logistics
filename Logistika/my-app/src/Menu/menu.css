@@ -1,0 +1,89 @@
+.container-navbar {
+  background-color: #fff !important;
+}
+
+.container-navbar .menu {
+  z-index: 10000;
+  background-color: #fff;
+}
+
+.container-navbar .menu .main_navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-navbar .menu .navbar-collapse .navbar-ul {
+  height: 100%;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.container-navbar .menu .navbar-collapse .navbar-ul r
+.navbar-li {
+  text-decoration: none;
+  color: #333 !important;
+  font-weight: 700;
+  word-spacing: 20px;
+}
+
+.container-navbar .menu .navbar-collapse .navbar-ul r
+.navbar-li .navbar-li:hover {
+  border-bottom: 2px blue solid;
+}
+
+.container-navbar .menu .navbar-collapse .navbar-ul r
+.navbar-li .active-nav {
+  color: #333 !important;
+  font-weight: 700;
+}
+
+.container-navbar .menu .navbar-collapse .navbar-ul r
+.navbar-li .nav-dropdown {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+}
+
+.container-navbar .menu .navbar-collapse .navbar-ul r
+.navbar-li .nav-dropdown .dropdown-item {
+  text-decoration: none;
+  color: #333 !important;
+}
+
+.container-navbar .menu .navbar-collapse .navbar-ul r
+.navbar-li .nav-link-dropdown {
+  text-decoration: none !important;
+  color: #333 !important;
+}
+
+.container-navbar .menu .navbar-collapse .nav-login > button {
+  color: white;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#453fb8), to(#00d4ff));
+  background: linear-gradient(90deg, #453fb8 0%, #00d4ff 100%);
+  border: none;
+}
+
+.container-navbar .menu .navbar-collapse .nav-login > button .login-nav {
+  text-decoration: none;
+  color: white;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700 !important;
+}
+
+.dropdown-menu li .dropdown-item a {
+  color: #333;
+  text-decoration: none;
+}
+/*# sourceMappingURL=menu.css.map */
